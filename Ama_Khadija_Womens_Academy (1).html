@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ama Khadija Women's Academy | امہ خدیجہ ویمنز اکیڈمی</title>
+  <style>
+    :root{
+      --primary: #0E8890;
+      --accent: #7B2123;
+      --muted: #f6f5f3;
+      --card: #ffffff;
+      --radius: 14px;
+    }
+    *{box-sizing:border-box}
+    body{font-family: Arial, sans-serif; margin:0; background:var(--muted); color:#222}
+    header{background:linear-gradient(90deg,var(--primary), #2fb5b8); color:white; padding:36px 20px; border-bottom:6px solid var(--accent)}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    .brand{display:flex; align-items:center; gap:16px}
+    .logo{width:72px;height:72px;border-radius:50%;background:conic-gradient(var(--accent), #f39c9b, var(--primary));display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:22px}
+    h1{margin:0;font-size:26px}
+    .slogan{margin-top:8px;font-style:italic}
+    nav{margin-top:18px}
+    nav a{color:rgba(255,255,255,0.95); margin-right:14px; text-decoration:none; font-weight:600}
+    .hero{display:flex; gap:20px;align-items:center; padding:28px 0}
+    .hero-left{flex:1}
+    .hero-right{flex:1; text-align:center}
+    .card{background:var(--card); padding:18px; border-radius:var(--radius); box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    .cta{display:inline-block;margin-top:12px;background:var(--accent); color:white;padding:10px 16px;border-radius:10px;text-decoration:none}
+    section{margin:28px 0}
+    h2{color:var(--accent);margin-bottom:10px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    .course{padding:14px;border-radius:12px;border:1px solid rgba(0,0,0,0.04)}
+    .course h3{margin:6px 0}
+    .urdu{font-family:'Noto Nastaliq Urdu', serif; direction:rtl; text-align:right}
+    .small{font-size:14px;color:#555}
+    form input, form textarea, form select{width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #ddd}
+    form button{background:var(--primary);border:none;color:white;padding:10px 14px;border-radius:8px;margin-top:8px}
+    footer{padding:18px 0;text-align:center;color:#444}
+    .motif{height:28px;background-image:repeating-linear-gradient(90deg, rgba(123,33,35,0.1) 0 8px, rgba(14,136,144,0.05) 8px 16px);border-radius:8px;margin-top:12px}
+    @media (max-width:700px){
+      .hero{flex-direction:column}
+      h1{font-size:20px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div class="logo">AK</div>
+        <div>
+          <h1>Ama Khadija Women's Academy<br><span class="urdu">امہ خدیجہ ویمنز اکیڈمی</span></h1>
+          <div class="slogan">“Following the Legacy of Hazrat Khadija (R.A.) — with Wisdom and Strength.”<br><span class="urdu">“حضرت خدیجہؓ کے نقشِ قدم پر — علم و وقار کے ساتھ”</span></div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About / تعارف</a>
+        <a href="#courses">Courses / کورسس</a>
+        <a href="#admission">Admission / اندراج</a>
+        <a href="#contact">Contact / رابطہ</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left card">
+        <h2>Welcome to Ama Khadija Women's Academy</h2>
+        <p class="small">A safe, respectful, and culturally-rooted learning space for the women and girls of Balochistan. We combine strong academic tuition with Quranic education and local values.</p>
+        <div class="motif"></div>
+        <a class="cta" href="#admission">Apply Now / ابھی درخواست دیں</a>
+      </div>
+      <div class="hero-right">
+        <div class="card">
+          <h3>Quick Info / فوری معلومات</h3>
+          <p class="small"><strong>Location:</strong> Quetta (sample)</p>
+          <p class="small"><strong>Hours:</strong> Monday — Saturday, 9am — 5pm</p>
+          <p class="small"><strong>Languages:</strong> Urdu / English / Balochi</p>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="card">
+      <h2>About / تعارف</h2>
+      <p class="small">Ama Khadija Women's Academy exists to honor the legacy of Hazrat Khadija (R.A.) by providing education, moral guidance, and practical skills to women in Balochistan. Our environment is respectful of traditions while opening doors to modern knowledge.</p>
+      <p class="urdu">امہ خدیجہ ویمنز اکیڈمی کا مقصد خواتین کو تعلیم، دینی رہنمائی اور عملی مہارتیں فراہم کرنا ہے، روایات کا احترام کرتے ہوئے جدید علم کے دروازے کھولنا۔</p>
+    </section>
+    <section id="courses">
+      <h2>Courses / کورسس</h2>
+      <div class="grid">
+        <div class="course card">
+          <h3>School Tuition / اسکول ٹویشن</h3>
+          <p class="small">Tuition for primary to secondary students — focused lessons, exam preparation, homework support, and confidence building. (Mathematics, Science, English, Urdu)</p>
+          <p class="urdu">پری-پرائمری سے سیکنڈری تک ٹیوٹرنگ، امتحانی تیاری، ہوم ورک مدد، اور اعتماد کی تعمیر۔ (ریاضی، سائنس، انگریزی، اردو)</p>
+        </div>
+        <div class="course card">
+          <h3>Quran Classes / قرآنی کلاسز</h3>
+          <p class="small">Tajweed, memorization (Hifz) support, basic Tafsir and moral lessons suited for all ages. Female teachers available.</p>
+          <p class="urdu">تجوید، حفظ کے لیے رہنمائی، مختصر تفسیر اور اخلاقی اسباق ہر عمر کے لیے۔ خواتین اساتذہ دستیاب ہیں۔</p>
+        </div>
+      </div>
+    </section>
+    <section id="admission" class="card">
+      <h2>Admission / اندراج</h2>
+      <p class="small">To apply, fill the short form below. We prioritize local girls and women and offer flexible class timing.</p>
+      <form>
+        <label>Student Name / طالبہ کا نام</label>
+        <input type="text" name="name" placeholder="Full name / پورا نام" required>
+        <label>Age / عمر</label>
+        <input type="number" name="age" placeholder="Age / عمر" required>
+        <label>Course Interested / منتخب کورس</label>
+        <select name="course">
+          <option>School Tuition / اسکول ٹویشن</option>
+          <option>Quran Classes / قرآنی کلاسز</option>
+          <option>Both / دونوں</option>
+        </select>
+        <label>Contact Number / رابطہ نمبر</label>
+        <input type="tel" name="phone" placeholder="03xx-xxxxxxx" required>
+        <label>Address / پتہ</label>
+        <textarea name="address" rows="2" placeholder="City / شہر"></textarea>
+        <button type="submit">Submit / جمع کریں</button>
+      </form>
+    </section>
+    <section id="contact" class="card">
+      <h2>Contact / رابطہ</h2>
+      <p class="small">For more information or to schedule a visit, contact:</p>
+      <p class="small"><strong>Phone:</strong> 03xx-xxxxxxx</p>
+      <p class="small"><strong>Email:</strong> amakhadija@example.com</p>
+      <p class="urdu small">مزید معلومات کے لیے یا ملاقات کے لیے رابطہ کریں۔</p>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>© <strong>Ama Khadija Women's Academy</strong> — Following the Legacy of Hazrat Khadija (R.A.).</p>
+      <p class="urdu small">© امہ خدیجہ ویمنز اکیڈمی — حضرت خدیجہؓ کے نقشِ قدم پر</p>
+    </div>
+  </footer>
+</body>
+</html>
